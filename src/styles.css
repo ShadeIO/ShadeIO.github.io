@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+canvas {
+    border: 2px solid black;
+    background: #777;
+}
+
+controls {
+    background: #444;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 220px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.status {
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    background: #666;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+    button:disabled {
+        background: #444;
+        cursor: not-allowed;
+    }
